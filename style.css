@@ -261,7 +261,7 @@ input::placeholder {
 .cards{
     width: 80%;
     height: 400px;
-    margin-top: 15%;
+    margin-top: 230px;
     margin-left: 10%;
     display: flex;
     justify-content: space-between;
