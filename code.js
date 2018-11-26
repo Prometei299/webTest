@@ -193,7 +193,7 @@ const input = document.createElement('input');
 input.type = 'text';
 input.placeholder = 'Search on YouTube...';
 input.addEventListener('keypress', function(event){
-    if (event.code === "Enter") {
+    if (event.key === "Enter") {
         url = site + input.value;
         // calling the cards creation function
         createCards();
